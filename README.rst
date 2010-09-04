@@ -13,3 +13,7 @@ Users of this data are kindly asked to cite this project:
 E.L. Willighagen, Cheminformatics Classics, 2010. Available
 from http://github.com/egonw/cheminformatics.classics/
 
+Classics
+========
+
+1. http://egonw.github.com/cheminformatics.classics/classic1.html
