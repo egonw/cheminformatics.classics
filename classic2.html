@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+    "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:dc="http://purl.org/dc/terms/"
+      xmlns:prism="http://prismstandard.org/namespaces/basic/2.0"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:cc="http://github.com/egonw/cheminformatics.classics/2/#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:cito="http://purl.org/net/cito/"
+      xmlns:cinf="http://semanticscience.org/ontology/cheminf-core.owl#"
+      xmlns:owl="http://www.w3.org/2002/07/owl#"
+      xmlns:chebi="http://purl.obolibrary.org/obo/CHEBI#"
+      xmlns:chem="http://www.blueobelisk.org/chemistryblogs/"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema#"
+    version="XHTML+RDFa 1.0" xml:lang="en">
+  <head>
+    <title>Cheminformatics Classic #2: H.E. Gottlieb, V. Kotlyar, A. Nudelman, NMR Chemical Shifts of Common Laboratory Solvents as Trace Impurities, 1997</title>
+  </head>
+  <body>
+
+  <h1>Cheminformatics Classic #2</h1>
+  <div about=""><span rel="cito:citesAsSourceDocument" resource="#classic2"/></div>
+  <div about="cc:molecule"><span rel="owl:sameAs" resource="chebi:CHEBI_36357"/></div>
+  <div about="chem:smiles"><span rel="owl:sameAs" resource="cinf:CHEMINF_000032"/></div>
+
+  <div about="#classic2">
+    <span property="dc:creator">H.E. Gottlieb, V. Kotlyar, A. Nudelman</span>,
+    <span property="dc:title">NMR Chemical Shifts of Common Laboratory Solvents as Trace Impurities</span>,
+    <span property="prism:publicationName">J. Org. Chem.</span>,
+    <span property="prism:publicationDate" datatype="xs:gYear">1997</span>,
+    <span property="prism:volume" datatype="xs:integer">62</span>,
+    <span property="prism:pageRange">7512-7515</span>,
+    doi:<a href="http://dx.doi.org/10.1021/jo971176v" rel="prism:doi">10.1021/jo971176v</a>.
+  </div>
+
+  <h2>Table I: 1H HNMR Data</h2>
+  <table>
+    <tr>
+      <td></td>
+      <td>proton</td>
+      <td>mult</td>
+      <td about="#cdcl3" typeof="cc:molecule">CDCl<sub>3</sub></td>
+      <td about="#dacetone" typeof="cc:molecule">(CD<sub>3</sub>)<sub>2</sub>CO</td>
+      <td about="#ddmso" typeof="cc:molecule">(CD<sub>3</sub>)<sub>2</sub>SO</td>
+      <td about="#dbenzene" typeof="cc:molecule">C<sub>6</sub>D<sub>6</sub></td>
+      <td about="#dmcn" typeof="cc:molecule">CD<sub>3</sub>CN</td>
+      <td about="#dmethanol" typeof="cc:molecule">CD<sub>3</sub>OD</td>
+      <td about="#dwater" typeof="cc:molecule">D<sub>2</sub>O</td>
+    </tr>
+    <tr typeof="cc:molecule" about="http://rdf.openmolecules.net/?InChI=1/C3H6O/c1-3(2)4/h1-2H3">
+      <td><span property="dc:title">acetone</span></td>
+      <td>CH<sub>3</sub></td>
+      <td>t</td>
+      <td>
+        <span rel="cc:hasShiftInSolvent"><a rel="cc:solvent" href="#cdcl3"></a>
+          <span property="cc:hasShift" datatype="xs:float">2.17</span>
+        </span>
+      </td>
+      <td>
+        <span rel="cc:hasShiftInSolvent"><a rel="cc:solvent" href="#dacetone"></a>
+          <span property="cc:hasShift" datatype="xs:float">2.09</span>
+        </span>
+      </td>
+      <td>
+        <span rel="cc:hasShiftInSolvent"><a rel="cc:solvent" href="#ddmso"></a>
+          <span property="cc:hasShift" datatype="xs:float">2.09</span>
+        </span>
+      </td>
+      <td>
+        <span rel="cc:hasShiftInSolvent"><a rel="cc:solvent" href="#dbenzene"></a>
+          <span property="cc:hasShift" datatype="xs:float">1.55</span>
+        </span>
+      </td>
+      <td>
+        <span rel="cc:hasShiftInSolvent"><a rel="cc:solvent" href="#dmcn"></a>
+          <span property="cc:hasShift" datatype="xs:float">2.08</span>
+        </span>
+      </td>
+      <td>
+        <span rel="cc:hasShiftInSolvent"><a rel="cc:solvent" href="#dmethanol"></a>
+          <span property="cc:hasShift" datatype="xs:float">2.15</span>
+        </span>
+      </td>
+      <td>
+        <span rel="cc:hasShiftInSolvent"><a rel="cc:solvent" href="#dwater"></a>
+          <span property="cc:hasShift" datatype="xs:float">2.22</span>
+        </span>
+      </td>
+    </tr>
+    <tr typeof="cc:molecule" about="http://rdf.openmolecules.net/?InChI=1/C6H14/c1-3-5-6-4-2/h3-6H2">
+      <td><span property="dc:title">n-hexane</span></td>
+      <td>CH<sub>3</sub></td>
+      <td>t</td>
+      <td>
+        <span rel="cc:hasShiftInSolvent"><a rel="cc:solvent" href="#cdcl3"></a>
+          <span property="cc:hasShift" datatype="xs:float">0.88</span>
+        </span>
+      </td>
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+    </tr>
+  </table>
+
+  <!-- meta data -->
+  <hr />
+  <div about="">
+    All data on this page is available under
+    <a href="http://creativecommons.org/choose/zero/">CC0</a>,
+    but the document itself is available under
+    <a rel="dc:license" href="http://creativecommons.org/license/cc-sa-by/">CC-SA-BY</a>.
+    Contributors: <span property="dc:creator">Egon Willighagen</span>.
+  </div>
+  <div>
+    Users of this data are kindly asked to cite this project:
+    E.L. Willighagen, Cheminformatics Classics, 2010. Available from http://github.com/egonw/cheminformatics.classics/.
+  </div>
+  <p about=""
+     resource="http://www.w3.org/TR/rdfa-syntax"
+     rel="dc:conformsTo">
+    <a href="http://validator.w3.org/check?uri=referer"><img
+        src="http://www.w3.org/Icons/valid-xhtml-rdfa"
+        alt="Valid XHTML + RDFa" height="31" width="88" /></a>
+  </p>
+
+
+  </body>
+</html>
+
