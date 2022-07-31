@@ -19,4 +19,4 @@ Classics
 
 The classics are online at:
 
-  http://egonw.github.com/cheminformatics.classics/
+  https://egonw.github.io/cheminformatics.classics/
